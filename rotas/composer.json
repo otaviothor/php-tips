@@ -1,0 +1,23 @@
+{
+  "name": "otaviothor/phptips",
+  "description": "ROTAS, CALLBACKS E ESTRUTURA MVC COM ROUTER",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Otávio Barreto de Oliveira Silva",
+      "email": "otaviosilva2632@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/router": "1.0.*"
+  }
+}
