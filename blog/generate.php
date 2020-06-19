@@ -5,6 +5,10 @@ require __DIR__."/vendor/autoload.php";
 use Faker\Provider\Image;
 use Faker\Provider\Lorem;
 use Source\Models\Post;
+ 
+if (!is_dir("images")) {
+  mkdir("image");
+}
 
 for ($i = 0; $i < 15; $i++) { 
   $post = new Post();
