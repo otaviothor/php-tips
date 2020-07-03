@@ -1,0 +1,23 @@
+{
+  "name": "otaviothor/phptips",
+  "description": "GESTÃO DE SENHAS COM A API NATIVA DO PHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Otávio Barreto de Oliveira Silva",
+      "email": "otaviosilva2632@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.2"
+  }
+}
