@@ -1,5 +1,8 @@
 <?php
 
+phpinfo();
+exit;
+
 require __DIR__ . "/vendor/autoload.php";
 
 use CoffeeCode\Cropper\Cropper;

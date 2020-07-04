@@ -9,16 +9,8 @@
       "email": "otaviosilva2632@gmail.com"
     }
   ],
-  "autoload": {
-    "psr-4": {
-      "Source\\": "source/"
-    },
-    "files": [
-      "source/Config.php"
-    ]
-  },
   "require": {
     "fzaninotto/faker": "1.8.*",
-    "coffeecode/paginator": "1.2.*"
+    "coffeecode/cropper": "1.2.*"
   }
 }
